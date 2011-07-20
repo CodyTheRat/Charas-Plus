@@ -1,2 +1,6 @@
-There's absolutely nothing in this repo yet, because I'm dumb and can't figure out how to work git.
-Once I have some solid source and am no longer (as) dumb, I'll add in the source files.
+There is almost nothing to see here at the moment.
+Haven't yet learned wxPython solidly, so I can't make a window, without which I can't embed a pygame
+surface into a frame, which means this application can go nowhere at the moment.
+So yeah!
+
+Later.
