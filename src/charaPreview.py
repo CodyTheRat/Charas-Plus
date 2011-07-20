@@ -1,3 +1,0 @@
-# Preview Renderer
-
-import pygame

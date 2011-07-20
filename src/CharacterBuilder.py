@@ -1,6 +1,6 @@
 # Builder
-# This module stores all of the classes necessary to the building of the actual character file.
-# It has the part class, the list manager, 
+""" This module stores all of the classes necessary to the building of the actual character file.
+    It has the part class, and not much else at the moment. """
 
 class CharacterPart:
 	""" Class that will contain metadata, which will be decided at a later point! """
@@ -15,27 +15,25 @@ class Character:
 		self.parts = {
 			# Stores part instances for later access.
 			# Lists indicate layers, from deepest to highest.
-			'template': 0,
+			'template': None,
 			'head': {
-				'eyeL': 0,
-				'eyeR': 0,
-				'mouth': 0,
-				'hair': 0,
-				'misc': [0,0,0,0]
+				'eyeL': None,
+				'eyeR': None,
+				'mouth': None,
+				'hair': None,
+				'misc': [None,None,None,None]
 				},
 			'body': {
-				'top': 0,
-				'handL': 0,
-				'handR': 0,
-				'bottom': 0,
-				'footL': 0,
-				'footR': 0,
-				'misc': [0,0,0,0]
+				'top': None,
+				'handL': None,
+				'handR': None,
+				'bottom': None,
+				'footL': None,
+				'footR': None,
+				'misc': [None,None,None,None]
 				},
-			'accessories': [0,0,0,0,0,0,0,0]}
+			'accessories': [None,None,None,None,None,None,None,None]}
 	
 	def swapParts(self, part, subpart, newval, subindex=0):
-		if subpart == 'misc':
-			self.parts[part][subpart] = newval
-		else:
-			self.parts[part][subpart][subindex] = newval
+		pass
+	

@@ -1,4 +1,4 @@
 # Window
 
 import wx
-from charaPreview import *
+from PreviewRenderer import *
