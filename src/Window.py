@@ -7,4 +7,4 @@ from PreviewRenderer.py import *
 
 class MasterWindow(wx.Frame):
 	def __init__(self):
-		pass #until i learn what the hell i'm doing
+		pass
