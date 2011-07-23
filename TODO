@@ -1,0 +1,32 @@
+# TODO
+
+## Renderer
+  @ Loads part data and renderers correctly.
+  @ Can take individual poses on the sheet and animate.
+  @ Embeds into a wx panel.
+
+## Window
+  @ Get frames working correctly.
+  @ Figure out all needed elements.
+  @ Renders and reacts to the preview renderer.
+
+## Builder
+  @ Swaps parts out correctly.
+  @ Uses views to dynamically output to the renderer?
+  @ Stores image data in a non-absolutely-memory-hogging way.
+
+## Parts
+  @ Palettes.
+  @ Solution to shading (either grayscale tinting or something else)
+
+## Saving
+  @ Proper metadata, showing you who made the part, palette data, etc.
+  @ Saves default palette.
+  @ Saves characters into their own project file, as well as sheets.
+
+@ Tons of other stuff that I don't even know yet.
+  
+
+# COMPLETED
+
+Jack!

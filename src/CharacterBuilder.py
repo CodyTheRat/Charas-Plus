@@ -34,6 +34,6 @@ class Character:
 				},
 			'accessories': [None,None,None,None,None,None,None,None]}
 	
-	def swapParts(self, part, subpart, newval, subindex=0):
+	def swapParts(self, part, subpart, newval, layer=0):
 		pass
 	
