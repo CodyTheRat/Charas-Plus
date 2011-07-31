@@ -2,7 +2,7 @@
 
 from Main import *
 
-main = Main.main()
+app = Main.App()
 
 if __name__ == "__main__":
-    main.Main()
+    app.MainLoop()
