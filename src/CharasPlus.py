@@ -1,4 +1,8 @@
 # Core Launcher
 
-from SaveLoad import *
-from Window import *
+from Main import *
+
+main = Main.main()
+
+if __name__ == "__main__":
+    main.Main()
