@@ -6,6 +6,8 @@
 
 import wx
 from PreviewRenderer import *
+from Importer import *
+from SaveLoad import *
 
 class PygameDisplay(wx.Window):
 	""" Taken from a pygame.org entry by David Barker 
@@ -34,10 +36,13 @@ class PygameDisplay(wx.Window):
 		self.Redraw()
 	
 	def Redraw(self):
+		# Still using demo code :V
+		# Haven't cleared it out yet, at the moment it's just...proofing.
 		if self.size_dirty:
 			self.screen = pygame.Surface(self.size, 0, 32)
 			self.size_dirty = False
 		
+		# Demo Code
 		self.screen.fill((0,0,0))
 		
 		cur = 0
@@ -47,7 +52,7 @@ class PygameDisplay(wx.Window):
 			pygame.draw.aaline(self.screen, (255, 255, 255), (0, h - cur), (cur, 0))
 			
 			cur += self.linespacing
-		
+		# End Demo Code
 		s = pygame.image.tostring(self.screen, 'RGB')  # Convert the surface to an RGB string
 		img = wx.ImageFromData(self.size[0], self.size[1], s)  # Load this string into a wx image
 		bmp = wx.BitmapFromImage(img)  # Get the image in bitmap form
@@ -76,9 +81,11 @@ class PygameDisplay(wx.Window):
 class MasterWindow(wx.Frame):
 	def __init__(self, parent=None, ID=-1, title="Charas+"):
 		super(MasterWindow, self).__init__(parent, ID, title)
+		self.Blah = PygameDisplay(self, -1)
+		self.Blah.Show()
 		self.Show()
 
-# Test code.
+# Test code Down There.
 
 app = wx.App()
 test = MasterWindow()
