@@ -3,21 +3,20 @@
 ## Renderer
   @ Loads part data and renderers correctly.
   @ Can take individual poses on the sheet and animate.
-  @ Embeds into a wx panel.
+  @ Interface with the builder and parts manager.
 
 ## Window
   @ Get frames working correctly.
   @ Figure out all needed elements.
-  @ Renders and reacts to the preview renderer.
+  @ Renders and reacts to the preview renderer. # Maybe done? Not sure. Need to actually test.
 
 ## Builder
   @ Swaps parts out correctly.
-  @ Uses views to dynamically output to the renderer?
-  @ Stores image data in a non-absolutely-memory-hogging way.
+  @ Stores image data in a non-absolutely-memory-hogging way. (strings?)
 
 ## Parts
   @ Palettes.
-  @ Solution to shading (either grayscale tinting or something else)
+  @ Solution to shading, to allow for palettes (either grayscale tinting or something else)
 
 ## Saving
   @ Proper metadata, showing you who made the part, palette data, etc.
@@ -29,4 +28,18 @@
 
 # COMPLETED
 
-Jack!
+## Renderer
+  @ Embeds into a wx panel/frame (thanks to pygame.org and it's open source repository)
+  
+  
+## Window
+
+
+## Builder
+
+
+## Parts
+
+
+## Saving
+

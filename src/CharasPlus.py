@@ -1,6 +1,6 @@
 # Core Launcher
 
-from Main import *
+import Main
 
 app = Main.App()
 
